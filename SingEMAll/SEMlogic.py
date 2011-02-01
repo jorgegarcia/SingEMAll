@@ -23,7 +23,8 @@ class SEMprocess():
         elif (self.singer == 'arnau' ):
             self.language = 'spanish'
             
-        Canoris.set_api_key('528404811ff14886946c6366316a6657')
+        #replace <api_key> with your API key!
+        Canoris.set_api_key('<api_key>') 
 
     def processMidiFile(self, MidifilePath):
         self.midiFilePath = MidifilePath
